@@ -5,7 +5,6 @@ Serializers for the user API View.
 from django.contrib.auth import get_user_model, authenticate
 from rest_framework import serializers
 from django.utils.translation import gettext as _
-from yaml import serialize
 
 class UserSerializers(serializers.ModelSerializer):
     """Serializers for the user object."""
